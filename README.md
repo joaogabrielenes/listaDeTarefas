@@ -1,5 +1,7 @@
 # listaDeTarefas
- Simples Lista de Tarefas 
+
+SIMPLES LISTA DE TAREFAS DESENVOLVIDA COM JAVASCRIPT CSS E HTML
+SIMPLE TASK LIST DESIGNED WITH JAVASCRIPT CSS AND HTML
 
 
- <a target="_blank" href="https://john-enes.github.io/listaDeTarefas/"> ABRIR SITE</a>
+ <a href="https://john-enes.github.io/listaDeTarefas/"> ABRIR SITE</a>
