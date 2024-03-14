@@ -1,5 +1,5 @@
 # listaDeTarefas
 
 SIMPLES LISTA DE TAREFAS DESENVOLVIDA COM JAVASCRIPT CSS E HTML <br>
-SIMPLE TASK LIST DESIGNED WITH JAVASCRIPT CSS AND HTML
- <a href="https://john-enes.github.io/listaDeTarefas/"> ABRIR LISTA DE TAREFAS!</a>
+SIMPLE TASK LIST DESIGNED WITH JAVASCRIPT CSS AND HTML <br>
+ <a href="https://john-enes.github.io/listaDeTarefas/"> CLICK TO OPEN!</a>
