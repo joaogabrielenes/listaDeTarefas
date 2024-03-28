@@ -1,7 +1,3 @@
-# listaDeTarefas
-
- <a href="https://john-enes.github.io/listaDeTarefas/"> CLICK TO OPEN!</a>
-
 # Task List 
 
 <img src="img/page.jpg" alt="HOME PRINT" />
@@ -21,5 +17,6 @@
 
 # Extras
 
+- <a href="https://john-enes.github.io/listaDeTarefas/"> CLICK TO OPEN!</a>
 - Developed completely in Portuguse, Brazil 
 - Website developed as **study material, non-authorial project!**
