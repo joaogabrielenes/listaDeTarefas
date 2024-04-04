@@ -18,5 +18,4 @@
 # Extras
 
 - <a href="https://john-enes.github.io/listaDeTarefas/"> CLICK TO OPEN!</a>
-- Developed completely in Portuguse, Brazil 
-- Website developed as **study material, non-authorial project!**
+- Developed completely in Portuguse, Brazil
