@@ -14,16 +14,21 @@
             <h1>To-do List <i class="fa-regular fa-note-sticky"></i> </h1>
             <h2>Digite sua tarefa:</h2>
             <header>
-                <input class="listaDeTarefas" maxlength="30" id="inputTarefa" type="text" placeholder="Qual a sua tarefa?">
+                <input class="listaDeTarefas" maxlength="30" id="inputTarefa" autocomplete="off" type="text" placeholder="Qual a sua tarefa?">
                 <button onclick="addTarefa()" id="btn-add" class="add"> <i class="fa-solid fa-plus"></i> </button>
             </header>
             <h3>Suas tarefas:</h3>
                 <main id="areaLista">
                 </main>
-                
-                
         </div>
     </div>
+
+    <footer>
+        <div id="perfis" >
+            <span>João Enes</span> &copy; 2024
+            <a href="https://github.com/John-Enes" target="_blank"><i id="github" class="fa-brands fa-square-github"></i></a>
+        </div>
+    </footer>
 
     <script src="js/index.js"></script>
 </body>

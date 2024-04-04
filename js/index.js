@@ -107,13 +107,3 @@ function finalizarEdicao(id, novoTexto) {
     itemNome.innerHTML = novoTexto;
 }
 
-
-
-//Para clicar com o ENTER
- document.addEventListener('keypress', function(e){
-     if(e.which == 13){
-        btnAdd.click()
-        console.log('a tecla enter foi pressionada');
-        }
-  }, false);
-
