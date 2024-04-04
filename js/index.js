@@ -116,3 +116,4 @@ function finalizarEdicao(id, novoTexto) {
         console.log('a tecla enter foi pressionada');
         }
   }, false);
+

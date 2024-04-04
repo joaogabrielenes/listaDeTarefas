@@ -1,20 +1,17 @@
 @charset "UTF-8";
 
 
-
-
-
-    
-
-
 #container{
     width: 700px;
-    height: 700px;
+    height: 730px;
     background-color: #fff;
     margin: 0 auto;
     margin-top: 50px;
     border-radius: 3px;
     margin-bottom: 169px;
+    box-shadow: 0px 0px 20px 1px rgba(0, 0, 0, 0.5);
+    overflow: auto;
+    
 }
 
 
@@ -23,7 +20,7 @@ body{
     margin: 0;
     padding: 0;
     font-family: Arial, Helvetica, sans-serif;
-    background-color: rgb(250, 217, 177);
+    background-color:#C3E6BC;
 }
 
 
@@ -42,6 +39,13 @@ h1{
 h2{
     font-size: 1.2em;
     padding-left: 70px;
+}
+
+h3{
+    border-top: 1px solid #CCC;
+    font-size: 1.2em;
+    padding-left: 70px;
+    padding-top: 20px;
 }
 
 header{
@@ -82,28 +86,30 @@ button.add{
 }
 
 button.add:hover{
-    background-color: #171c21;
+    background-color: #98E68F;
     color: white;
 }
 
 main{
+    
     display: flex;
     flex-flow: row wrap;
     width: 80%;
     margin: auto;
     /* border: 1px solid blue; */
-    padding-top: 40px;
+    
 }
 
 .item{
+    
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
     align-items: center;
     background: white;
     height: 50px;
-    width: 500px;
-    box-shadow: 0px 0px 13px rgb(201, 201, 201);
+    width: 430px;
+    box-shadow: 0px 0px 2.6px rgba(0, 0, 0, 0.5);
     margin-bottom: 2%;
     cursor: pointer;
 }
@@ -120,7 +126,8 @@ main{
 .itemIcone{
     flex: 0.5%;
     text-align: center;
-    font-size: 2rem;
+    font-size: 1.8rem;
+    
 }
 .itemNome{
     flex: 20%;
@@ -129,6 +136,7 @@ main{
 }
 
 .itemBotao{
+    text-align: end;
     flex: 10%;
 }
 
@@ -145,22 +153,34 @@ main{
 }
 
 .delete:hover{
-    background-color: #171c21;
+    background-color: #FF5147;
     color: white;
+    transition:  0.17s;
 }
 
 .fa-check-circle{
     color: rgba(99, 98, 98, 0.74);
 }
 
-:root{
-    --white: aliceblue;
-    --dark: #171c21;
-}
 
-[data-theme="dark"]{
-    --white: #171c21;
-    --dark: aliceblue;
-}
+::-webkit-scrollbar {
+    width: 10px; /* largura da barra */
+  }
+  
+  /* Estilos do trilho */
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1; /* cor de fundo */
+  }
+  
+  /* Estilos do botão do indicador */
+  ::-webkit-scrollbar-thumb {
+    background: #888; /* cor do indicador */
+    border-radius: 5px; /* borda do indicador */
+  }
+  
+  /* Estilos do botão do indicador quando houver hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555; /* cor do indicador em hover */
+  }
 
 
