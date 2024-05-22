@@ -17,5 +17,5 @@
 
 # Extras
 
-- <a href="https://john-enes.github.io/listaDeTarefas/"> CLICK TO OPEN!</a>
+- <a href="https://joaogabrielenes.github.io/listaDeTarefas/"> CLICK TO OPEN!</a>
 - Developed completely in Portuguse, Brazil
